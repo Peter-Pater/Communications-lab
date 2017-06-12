@@ -1,0 +1,18 @@
+body{
+	text-align: center;
+	background-color: pink;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+	font-size: 46pt;
+}
+
+h1{
+	font-size: 40pt;
+}
+
+p{
+	font-size: 30pt;
+	margin-top: 10%;
+}

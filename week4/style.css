@@ -1,0 +1,5 @@
+body { height: 10000px; }
+#wrap {  position:fixed; }
+.dog { position:fixed; }
+#dog1 { top: 200px; }
+#dog2 { top: 400px; }

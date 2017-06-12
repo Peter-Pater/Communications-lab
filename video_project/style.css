@@ -1,0 +1,46 @@
+body{
+	padding-left:12%;
+	padding-right:12%;
+	margin-top: 5%;
+	background:black;
+	font-family: monospace, Arial, sans-serif;
+}
+
+h1{
+	color:white;
+	text-align: center;
+}
+
+#playButton{
+	float:left;
+	width: 2%;
+}
+
+#pauseButton{
+	width: 2%;
+	float:left;
+	margin-left: 1%;
+}
+
+#progress-bar{
+	width: 93%;
+	margin-left: 1%;
+	background: lightgray;
+	height: 20px;
+	position:relative;
+	float: left;
+}
+
+#progress {
+	top:0;
+	bottom:0;
+	left: 0%;
+	right: 100%;
+	background: gray;
+	/*	float: left;*/
+	position: absolute;
+}
+
+#control_div{
+	margin-top: 3%;
+}

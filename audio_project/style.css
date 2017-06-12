@@ -1,0 +1,74 @@
+body {
+	background-color: black;
+	font-family: monospace, Arial, sans-serif;
+	text-align: center;
+	background: black;
+	padding-left: 19.1%;
+	padding-right: 19.1%;
+	margin-top: 20px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
+
+p{color: white;}
+
+#gif{
+	margin-bottom: 40px;
+}
+
+#the_gif{
+	height: 400px;
+}
+
+#pauseButton{
+	height: 90px;
+	width:90px;
+	position: relative;
+	margin-top: 0px;
+}
+
+#playButton{
+	height: 80px;
+	width:80px;
+	position: relative;
+}
+
+#play{
+	float: left;
+/*	left: 210px;*/
+}
+
+#pause{
+	float: left;
+	/*left:210px;*/
+}
+
+
+#progress-bar {
+	width: 500px;
+	background: lightgray;
+	height: 60px;
+	position:relative;
+/*	left: 210px;*/
+	float: left;
+}
+
+#progress {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left: 0px;
+	right: 500px;
+	background: blue;
+	float: left;
+}
+
+#control{
+	position: relative;
+	margin-left: 7%;
+}
+

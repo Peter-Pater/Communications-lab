@@ -1,0 +1,84 @@
+body{
+	background:#FFF7E0;
+	padding-left: 19.1%;
+	padding-right: 19.1%;
+	margin-top: 20px;
+}
+
+div{
+	position: relative;
+}
+
+h1{
+	color:#FF0A00;
+	font-family: 'Bungee', Times New Roman;
+}
+
+ul{
+	list-style-type:none;
+	list-style-position: outside;
+}
+
+ul li{
+	display:inline;
+	margin-right:150px;
+}
+
+ul li a{
+	text-decoration:none;
+	color: #2100FF;
+}
+
+ul li a:hover{
+	text-decoration:underline;
+}
+
+ul li a:active{
+	color: red;
+}
+
+.menu{
+	left: 135px;
+}
+
+#badge{
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float:left;
+}
+
+#stadium{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	float:right;
+}
+
+#henry{
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float:left;
+}
+
+#sanchez{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	float:right;
+}
+
+#ozil{
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float:left;
+}
+
+#mustafi{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float:left;
+}
+
+#latest_match{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	float:right;
+}

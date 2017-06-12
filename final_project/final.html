@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A story of you</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
+</head>
+<body>
+
+<div id="capture_div" style="display: none">
+	<video id="video" width="640" height="480" autoplay></video>
+	<canvas id="canvas1" width="640" height="480" style="display: none;"></canvas><br>
+	<button id="capture">Capture!</button>
+	<button id="next" style="display: none">Next!</button>
+</div>
+
+<!-- the tentative two sections, 1. Start; Capture; Inputs, 2. The Story 3. other buttons-->
+<div id="initiation">
+	<div id="buttonDiv">
+		<button id="startButton">Begin!</button>
+	</div>
+
+	<div id="inputDiv1" style="display: none">
+		<p>Please input your gender (male or female):</p>
+		<input id='inputBox1' type="text">
+		<button id="inputButton1">submit</button>
+	</div>
+
+	<div id="inputDiv2" style="display: none;">
+		<p id="prompt">Please input a boy's name</p>
+		<input id="inputBox2" type="text">
+		<button id="inputButton2">submit</button>
+	</div>
+	<div id="element"></div>
+</div>
+
+<a href="index.html">
+	<img class="fadeinimg" id="home" src="images/home.png" style="display: none;">
+</a>
+
+<div id="element1"></div>
+
+<div id="piccontainer">
+	<div id="background" >
+		<div id="lines"></div>
+		<div id="mylines"></div>
+		<img class="fadeinimg" id="backgroundimg" src="images/0.png" style="display: none;">
+		<img id="phone" src="images/iphone.png" style="display: none;">
+		<canvas id="canvas2" width="400" height="300" style="display: none;"></canvas>
+	</div>
+</div>
+
+
+<img class="fadeinimg" id="musicPic" src="images/gramophone.gif" style="display: none;">
+<audio src="0.mp3" id="music" preload></audio>
+
+
+<script type="text/javascript" src="sketch.js"></script>
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script src="typed.js"></script>
+</body>
+</html>

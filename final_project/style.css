@@ -1,0 +1,156 @@
+body {
+	background-color: pink;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+	font-size: 30px;
+}
+
+input{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:40px;
+    height:40px;
+    width:200px;
+}
+
+button {
+	background-color: #f0f0f0;
+	border-radius: 4px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	border-width: 1px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+#initiation{
+	text-align: center;
+}
+
+#startButton {
+	width: 300px;
+	height: 300px;
+}
+
+#inputDiv1{
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 300px;
+}
+
+#inputDiv2{
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 300px;
+}
+
+#inputButton1 {
+	height: 30px;
+	width: 100px;
+}
+
+#inputButton2 {
+	height: 30px;
+	width: 100px;
+}
+
+#buttonDiv{
+	margin-top: 200px;
+}
+
+#element{
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 300px;
+	font-size: 30px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+#element1{
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 300px;
+	font-size: 30px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+#backgroundimg{
+	height: 100vh;
+}
+
+#background{
+	width: 133vh;
+	margin: auto;
+}
+
+#piccontainer{
+	float: left;
+	text-align: center;
+}
+
+
+#home{
+	float: left;
+	width: 9%;
+	margin-top: 80vh;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+#musicPic{
+	float: left;
+	margin-top: 80vh;
+	margin-left: 2%;
+	width: 6%;
+}
+
+#capture_div{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#lines {
+	position: absolute;
+	width: 24vw;
+	top: 3vh;
+	right: 16vw;
+	background: rgba(255, 255, 255, 0.4);
+	font-size: 30px;
+	color: black;
+}
+
+#mylines {
+	position: absolute;
+	bottom: 5vh;
+	left: 20vw;
+	background: rgba(255, 255, 255, 0.4);
+	font-size: 40px;
+	color: black;
+}
+
+#phone {
+	position: absolute;
+	height: 100vh;
+	top: 0;
+	left: 40vw;
+}
+
+#canvas2{
+	position:absolute;
+	top: 30%;
+	left: 40vw;
+}
+/*#video {
+	transform: rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+}
+*/
+/*#startButton{
+	display: none;
+}*/
